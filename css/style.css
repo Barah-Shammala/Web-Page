@@ -5,9 +5,13 @@
 }
 body{
     direction: rtl;
+   
 }
 .padding-y{
     padding: 60px 0;
+}
+button:hover{
+    transform:translate(0,-5px);
 }
 /* ============== Header ============== */
 header{
@@ -15,24 +19,28 @@ header{
     background:url(../images/header-backgound.png);
     background-size: cover;
     position: relative;
+    background-position: center center;
 }
 .header-layer{
     height: 90vh;
     background-size: cover;
-    background:rgba(0, 0, 0, .5);
+    background:rgba(16, 11, 39, 0.7);
+    
 }
 header .navbar-brand{
     display: flex;
 }
 .navbar{
-    background-color: #243440;
+    background-color: rgba(0,0,0, 0.3);
     z-index: 1;
+    box-shadow: .5px .5px 1px #ddd;
+    background:#283440;
 }
 .navbar-logo-text{
     font-size: 36px;
     color: #fff;
     margin-right: 10px;
-    margin-top: 10px;
+    margin-top: 17px;
 }
 .navbar-logo-text span{
     color: #ff992e;
@@ -40,9 +48,10 @@ header .navbar-brand{
 .navbar li.nav-item a.nav-link{
     color: #fff;
     font-size: 17px;
-    font-family: Myriad Arabic;
-    margin-right: 8px;
+    /* font-family: Myriad Arabic; */
+    margin-right: 5px;
     transition: all .5s ease-in-out;
+    font-weight: bold;
 }
 .navbar li.nav-item.active a.nav-link, .navbar li.nav-item a.nav-link:hover{
     color: #00deff;
@@ -51,6 +60,10 @@ header .navbar-brand{
     font-size: 17px;
     color: #fff;
     margin-left: 20px;
+    transition: all .5s ease-in-out;
+}
+.header-icon:hover{
+    color: #00deff;
 }
 .header-contnet-heading{
     font-size: 37px;
@@ -80,12 +93,20 @@ header .navbar-brand{
     font-size: 17px;
     font-family: JF Flat;
     margin-bottom: 10px;
+    transition: all .5s ease-in-out;
 }
 .btn-buy{
-    background: linear-gradient(to right,#21d6fb,#4c6cc0);
+    background: linear-gradient(to right,#28dafd,#587bd3);
+}
+.btn-buy:hover{
+    background: linear-gradient(to left,#21d6fb,#4c6cc0);
 }
 .btn-more{
     background:linear-gradient(to right,#f18d27,#fd654e);
+
+}
+.btn-more:hover{
+    background:linear-gradient(to left,#f79f47,#fc715b);
 
 }
 /* ================ Check Section ================ */
@@ -119,6 +140,11 @@ header .navbar-brand{
     display: block;
     margin-right: auto;
     margin-top: 70px;
+    transition: all .5s ease-in-out;
+}
+.btn-c-more:hover{
+background: #0052A9;
+color: #fff;
 }
 /* ============= services ============== */
 .servcies{
@@ -190,6 +216,13 @@ font-size: 22px;
     border: 1px solid #fff;
     background: none;
     width: 160px;
+    transition: all .5s ease-in-out;
+
+}
+.check-buldding-text button:hover{
+    background: #0052A9;
+    color: #fff;
+    border-color: #0052A9;
 }
 /* ================ customer opinain =============*/
 .opinin-card{
@@ -239,6 +272,7 @@ ol.carousel-indicators li {
     background-image: url(../images/check-img.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
 }
 .ordr-layer{
     background-color: #024387;
@@ -278,6 +312,12 @@ textarea{
     border-radius: 5px;
     border: none;
     margin-left: 110px;
+    transition: all .5s ease-in-out;
+
+}
+.form button:hover{
+    color: #014085;
+    background: #fff;
 }
 footer h5{
     color: #fff;
@@ -301,4 +341,45 @@ footer .icon-siocal-media i{
     text-align: center;
     line-height: 30px;
     border-radius: 4px;
+    transition: all .5s ease-in-out;
+}
+footer .icon-siocal-media i:hover{
+    transform:scale(1.2);
+    box-shadow: 1px 1px 10px #b5c5ee;
+}
+.copy-text{
+    color: #fff;
+    font-size: 18px;
+}
+footer span{
+    font-family: Myriad Pro;
+    color: #fff;
+}
+.footer-copy{
+    height: 70px;
+    background: #1c66a1;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+    padding: 0 12%;
+}
+.footer-img{
+    display: flex;
+}
+.footer-img img{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+.footer-img p{
+    color: #fff;
+    text-align: right;
+}
+.footer-img p span{
+    font-size: 12px;
+    display: block;
+}
+.contact-us-card p{
+    font-size: 18px;
 }
