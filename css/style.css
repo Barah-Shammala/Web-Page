@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    direction: rtl;
+}
+.padding-y{
+    padding: 60px 0;
+}
+/* ============== Header ============== */
+header{
+    height: 90vh;
+    background:url(../images/header-backgound.png);
+    background-size: cover;
+    position: relative;
+}
+.header-layer{
+    height: 90vh;
+    background-size: cover;
+    background:rgba(0, 0, 0, .5);
+}
+header .navbar-brand{
+    display: flex;
+}
+.navbar{
+    background-color: #243440;
+    z-index: 1;
+}
+.navbar-logo-text{
+    font-size: 36px;
+    color: #fff;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.navbar-logo-text span{
+    color: #ff992e;
+}
+.navbar li.nav-item a.nav-link{
+    color: #fff;
+    font-size: 17px;
+    font-family: Myriad Arabic;
+    margin-right: 8px;
+    transition: all .5s ease-in-out;
+}
+.navbar li.nav-item.active a.nav-link, .navbar li.nav-item a.nav-link:hover{
+    color: #00deff;
+}
+.header-icon{
+    font-size: 17px;
+    color: #fff;
+    margin-left: 20px;
+}
+.header-contnet-heading{
+    font-size: 37px;
+    color: #fff;
+}
+.header-content-p{
+    font-size: 26px;
+    color: #fff;
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+
+.header-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    text-align: center;
+    font-family: Myriad Arabic;
+}
+.btn-h {
+    border-radius: 30px;
+    border: none;
+    padding:.5rem 1.5rem;
+    margin-left: 10px;
+    color: #fff;
+    font-size: 17px;
+    font-family: JF Flat;
+    margin-bottom: 10px;
+}
+.btn-buy{
+    background: linear-gradient(to right,#21d6fb,#4c6cc0);
+}
+.btn-more{
+    background:linear-gradient(to right,#f18d27,#fd654e);
+
+}
+/* ================ Check Section ================ */
+.check-text-title{
+    font-size: 32px;
+    color: #0052A9;
+    text-shadow: 1px 1px 10px #b5c5ee;
+}
+.check-text{
+    text-align: right;
+}
+.check-img img{
+    width: 90%;
+    height: 370px;
+    box-shadow: 1px 1px 10px #4c6cc0;
+    margin-left: 10%;
+    margin-bottom: 10px;
+}
+.check-text p{
+    color: #9fa9c1;
+    text-shadow: 1px 1px 15px #d1d5e0;
+}
+.btn-c-more{
+    border: 1px solid #4c6cc0;
+    color: #0052A9;
+    background: none;
+    padding: .4rem 1rem;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 17px;
+    display: block;
+    margin-right: auto;
+    margin-top: 70px;
+}
+/* ============= services ============== */
+.servcies{
+    background: #eee;
+}
+.seaction-heading{
+    text-align: center;
+}
+.seaction-heading h1{
+    font-size: 32px;
+}
+.seaction-heading p{
+    font-size: 18px;
+}
+.service-card-img{
+    width: 150px;
+    height: 150px;
+    background: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 150px;
+    margin:auto;
+    box-shadow: 1px 1px 15px rgb(204, 204, 204);
+}
+.service-card{
+    text-align: center;
+
+}
+.service-card-img img{
+    width: 70%;
+}
+.service-card h3{
+padding: 1rem 0;
+font-size: 22px;
+}
+.service-card p{
+    text-align: justify;
+    width: 90%;
+    color: #243440;
+}
+/* =============== check-bullding =============== */
+.check-bullding{
+      background: url(../images/park-lujiazui-financial-center-shanghai-china-\(1\).png);
+      background-size: cover;
+      background-position: center center;
+}
+.check-b-layer{
+    background:rgba(90, 90, 206, 0.4);
+    height: 100%;
+}
+.check-bulding-img img{
+    width: 80%;
+    border-radius: 20px;
+    margin: auto;
+    display: block;
+}
+.check-buldding-text{
+    text-align: center;
+    color: #fff;
+}
+.check-buldding-text h4{
+    width: 65%;
+    margin: 3rem auto;
+}
+.check-buldding-text button{
+    color: #fff;
+    border-radius: 30px;
+    padding: .5rem;
+    border: 1px solid #fff;
+    background: none;
+    width: 160px;
+}
+/* ================ customer opinain =============*/
+.opinin-card{
+    background-color: #024387;
+    padding: 1rem 1rem;
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px rgb(172, 172, 172);
+    margin: 10px;
+    
+}
+.op-card-blue{
+    color: #fff;
+}
+.opinin-card .title-right{
+    text-align: right;
+}
+.opinin-card p{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+.quote-icon{
+    font-size: 40px;
+    margin: 15px 10px;
+}
+.quote-icon-r{
+    text-align: right;
+    display: block;
+}
+.op-card-white{
+    color: #000;
+    background: #fff;
+}
+.op-card-white .quote-icon{
+    color: #ddd;
+}
+ol.carousel-indicators li {
+    position: relative;
+    top: 100px;
+    background: #024387;
+    width: 19px;
+    height: 1px;
+    border-radius: 50%;
+}
+/* ================ order ============= */
+.order{
+    background-image: url(../images/check-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ordr-layer{
+    background-color: #024387;
+    margin-top: 50px;
+    opacity: .9;
+}
+.order-content{
+    text-align: center;
+    color: #fff;
+}
+.contact-us-card{
+    text-align: center;
+}
+/* ============== footer ================ */
+footer{
+    background:#267EBE;
+}
+.form input,textarea{
+    display: block;
+    width: 80%;
+    padding: .5rem;
+    border-radius: 5px;
+    margin: 10px 0;
+    border: none;
+    background:#1C67A1;}
+.form input::placeholder,textarea::placeholder{
+    color: #ffff;
+}
+textarea{
+    height: 100px;
+}
+.form button{
+    background:#014085;
+    color: #fff;
+    width: 120px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 110px;
+}
+footer h5{
+    color: #fff;
+    margin-bottom: 20px;
+    margin-left: 100px;
+}
+footer ul li {
+    list-style: none;
+    color: #fff;
+    margin-bottom: 12px;
+}
+footer ul li i{
+    margin-right: 10px;
+}
+footer .icon-siocal-media i{
+    color: #fff;
+    font-size: 17px;
+    width: 30px;
+    height: 30px;
+    background-color: #286B9F;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 4px;
+}
